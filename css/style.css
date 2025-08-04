@@ -87,7 +87,7 @@ img {
   display: inline-block;
   text-decoration: none;
   color: #2e2f42;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .nav-link-current {
@@ -137,6 +137,7 @@ img {
   color: #434455;
   display: block;
   padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link:hover,
@@ -459,9 +460,11 @@ img {
 }
 
 .footer-svg {
-  fill: #fff;
+  fill: #f4f4fd;
   gap: 16px;
 }
+
+
 
 .container-footer-logo {
   margin-right: 120px;
@@ -475,4 +478,9 @@ img {
   line-height: 1.50;
   letter-spacing: 0.02em;
   color: #fff;
+}
+
+.container-footer .social-item-svg:hover,
+.container-footer .social-item-svg:focus {
+  background-color: #31d0aa;;
 }
