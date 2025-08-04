@@ -317,13 +317,8 @@ img {
 }
 
 .social-item {
-  background-color: #4D5AE5;
-  border-radius: 50%;
   width: 40px;
   height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .social-item-svg {
@@ -339,11 +334,11 @@ img {
 
 .social-item-svg:hover,
 .social-item-svg:focus {
-  background-color: #404bbf;
+ background-color: #404bbf;
 }
 
 .social-svg {
-  fill: #fff;
+  fill: #f4f4f4;
 }
 
 /* === Portfolio === */
@@ -461,10 +456,7 @@ img {
 
 .footer-svg {
   fill: #f4f4fd;
-  gap: 16px;
 }
-
-
 
 .container-footer-logo {
   margin-right: 120px;
@@ -482,5 +474,5 @@ img {
 
 .container-footer .social-item-svg:hover,
 .container-footer .social-item-svg:focus {
-  background-color: #31d0aa;;
+  background-color: #31d0aa;
 }
