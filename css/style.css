@@ -334,6 +334,8 @@ color: #404bbf;
   justify-content: center;
 }
 
+
+
 /* === Portfolio === */
 .portfolio {
   padding: 120px 0;
@@ -381,6 +383,38 @@ color: #404bbf;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.portfolio-thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 40px 32px;
+  background-color: #4d5ae5; /* фіолетовий фон */
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  transform: translateY(100%);
+  transition: transform 250ms ease-in-out;
+  z-index: 1;
+}
+
+.portfolio-link:hover .portfolio-overlay {
+  transform: translateY(0%);
+}
+
+.portfolio-thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 
 /* === Footer === */
 .footer-content {
