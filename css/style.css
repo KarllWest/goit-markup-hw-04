@@ -312,17 +312,22 @@ img {
 .social-item {
   background-color: #4D5AE5;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .social-svg {
-  fill: #fff;}
+  fill: #fff;
+}
 
-
+.social-item-svg {
+  width: 40px;
+  height: 40px;
+}
 
 /* === Portfolio === */
 .portfolio {
@@ -409,8 +414,7 @@ img {
 
 /* === Footer === */
 .container-footer {
-  align-items: flex-start;
-  justify-content: center;
+  align-items: baseline;
   display: flex;
 }
 
@@ -433,10 +437,11 @@ img {
 
 .footer-svg {
   fill: #fff;
+  gap: 16px;
 }
 
-.container-social {
-  margin-left: 120px ;
+.container-footer-logo {
+  margin-right: 120px;
 }
 
 .social-media-title {
