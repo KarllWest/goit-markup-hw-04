@@ -358,7 +358,7 @@ color: #404bbf;
   flex-wrap: wrap;
   gap: 48px 24px;
 }
-.portfolio-item {
+.portfolio-link {
   width: calc((100% - 48px) / 3);
 }
 .portfolio-info {
@@ -396,7 +396,7 @@ color: #404bbf;
   width: 100%;
   height: 100%;
   padding: 40px 32px;
-  background-color: #4d5ae5; /* фіолетовий фон */
+  background-color: #4d5ae5; 
   color: #fff;
   font-size: 16px;
   line-height: 1.5;
